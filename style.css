@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body{
-    background-image: url(../images/背景画像.jpg);
+    background-image: url(images/背景画像.jpg);
     background-repeat: no-repeat;
     font-family: sans-serif;
     background-size: cover;
