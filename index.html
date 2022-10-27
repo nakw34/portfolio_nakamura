@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="lightbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/5-4-1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400&family=Nunito:wght@200;300;400;500;600&family=Roboto:wght@100;300;400&family=Zen+Maru+Gothic:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="lightbox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+    <title>ポートフォリオサイト | HOME</title>
+</head>
+<body id="top">
+    <header class="global-header">
+        <ul class="header-main">
+            <li class="header-logo">
+                <a href="index.html">
+                    <img src="images/記憶ロゴ.png" alt="ポートフォリオサイト">
+                </a>
+            </li>
+            <li class="header-inner">
+                <a href="index.html">
+                    <p class="header-inner__sub">
+                        中村美玲<br>
+                        東京デザイン専門学校グラフィックデザイン科WEB・映像専攻
+                    </p>
+                </a>
+            </li>
+        </ul>
+        <nav class="gnav">
+            <div id="gnav1">
+                <ul class="gnav-menu">
+                    <li><a href="#about">Profile</a></li>
+                    <li><a href="#works1">Works</a></li>
+                    <li><a href="#contact-all">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="top">
+            <a href="#top" class="page_top_btn">
+                <img src="images/アヒルボタン.png" alt="topに戻る">
+            </a>
+        </section>
+        <div class="main-sitei">
+            <p class="main-copy">
+                中村美玲  　ポートフォリオサイト
+            </p>
+            <section class="main-visual">
+                <div class="video-area">
+                <video id="video" poster="images/main.jpg" webkit-playsinline playsinline muted autoplay loop class="video__box">
+                <!--
+                poster：動画ファイルが利用できない環境で代替表示される画像
+                webkit-playsinline：iOS 9までのSafari用インライン再生指定
+                playsinline：iOS 10以降のSafari用インライン再生指定
+                muted：音声をミュートさせる
+                autoplay：動画を自動再生させる
+                loop：動画をループさせる
+                controls：コントロールバーを表示する
+                -->
+                <source src="images/mainvideo.mp4" type="video/mp4">
+                <p>動画を再生できる環境ではありません。</p>
+                </video>
+        </section>
+                    <ul class="menu-main">
+                        <li class="menu1">
+                            <p class="menu-sub">Profile</p>
+                            <a  href="#about">
+                                <section class="hover">
+                                    <div class="hover-img"><img src="images/Profile1.png" alt="プロフィール"></div>
+                                    <div class="hover-text">
+                                        <p class="text1">私について</p>
+                                        <p class="text2"></p>
+                                    </div>
+                                </section>
+                            </a>
+                        </li>
+                        <li class="menu2">
+                            <p class="menu-sub">Works</p>
+                            <a  href="#works1">
+                                <section class="hover">
+                                    <div class="hover-img">
+                                        <img src="images/Works1.png" alt="ワーク"></div>
+                                    <div class="hover-text">
+                                        <p class="text1">作品紹介</p>
+                                        <p class="text2"></p>
+                                    </div>
+                                </section>
+                            </a>
+                        </li>
+                        <li class="menu3">
+                            <p class="menu-sub">Contact</p>
+                                <a  href="#contact-all">
+                                    <section class="hover">
+                                        <div class="hover-img">
+                                            <img src="images/Contact1.png" alt="コンタクト"></div>
+                                        <div class="hover-text">
+                                            <p class="text1">連絡手段</p>
+                                            <p class="text2"></p>
+                                        </div>
+                                    </section>
+                                </a>
+                        </li>
+                    </ul>
+                <div  id="about">
+                <h1 class="about-midashi">about</h1>
+                </div>
+                <ul class="about-main">
+                    <li class="about-img">
+                        <img src="images/i.png" alt="私">
+                    </li>
+                    <li class="about-maintxt">
+                        <div class="about-name">
+                            <h2 class="about-name__main">中村  美玲</h2>
+                            <h2 class="about-name__sub">Nakamura mirei</h2>
+                        </div>
+                        <h3 class="about-gakkou">東京デザイン専門学校 グラフィックデザイン科WEB・映像専攻</h3>
+                        <p class="about-txt">初めまして。中村美玲と申します。私は今まで授業や課題の中で「クライアントとその商品についてしっかりと理解し、それを見た人に伝わるようなデザイン」を意識して取り組んできました。今まで培ってきたものを最大限活かせる仕事をしたいです。</p>
+                    </li>
+                </ul>
+            <section class="midashi-skill">
+                <h1 class="skill">Skill</h1>
+            </section>
+            <ul class="skill-app">
+                <li>
+                    <div class="skill-icon">
+                        <img src="images/Ai.png" alt="イラストレーター">
+                    </div>
+                    <p>92%</p>
+                </li>
+                <li>
+                    <div class="skill-icon">
+                        <img src="images/Ps.png" alt="フォトショップ">
+                    </div>
+                    <p>90%</p>
+                </li>
+                <li>
+                    <div class="skill-icon">
+                        <img src="images/Xd.png" alt="xd">
+                    </div>
+                    <p>86%</p>
+                </li>
+                <li>
+                    <div class="skill-icon">
+                        <img src="images/Id.png" alt="インデザイン">
+                    </div>
+                    <p>84%</p>
+                </li>
+                <li>
+                    <div class="skill-icon">
+                        <img src="images/VS.png" alt="VSコード">
+                    </div>
+                    <p>84%</p>
+                </li>
+            </ul>
+            <ul class="profile-main">
+                <li class="profile-midashi">
+                    <h1 class="profile">Profile</h1>
+                    <h2 class="profile-sub">わたしと好きなモノについて</h2>
+                </li>
+                    <li class="profile-txt">
+                        身長は161cm、足のサイズは24cm、黒子が首に4つあり、正三角形の中に点が一個あるような配置です。<br>
+                        視力は悪く、コンタクトを付けなければ何も見えません。<br>
+                        趣味は邦画鑑賞、写真撮影、お笑い鑑賞、で、学校終わりや休日に映画を見に行ったり、<br>
+                        お笑ライブを見に行ったり、写真を撮りに行ったりしています。写真は主に風景、鳥、人物を撮っています。<br>
+                        好きな動物は猫、アヒル、フクロウ、柴犬で家では猫を一匹飼っています。<br>
+                        好きな食べ物はカレー、アイス、したらば、たこぶつです。<br>
+                    </li>
+            </ul>
+            <div id="works1">
+                <h1 class="mideshi-Works">Works</h1>
+            </div>
+            <nav class="wrap">
+                <ul class="tab-container">
+                    <li class="tab current">All</li>
+                    <li class="tab">Adovertising</li>
+                    <li class="tab">Editorial</li>
+                    <li class="tab">Package</li>
+                    <li class="tab">Web</li>
+                    <li class="tab">Other</li>
+                </ul>
+                <div>
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/ドリシャス大.jpg" data-lightbox="group" data-title="cafe・ド・リシャスwebサイト"><img src="images/ドリシャス.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">cafe・ド・リシャス webサイト</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/銭湯.jpg" data-lightbox="group" data-title="東京銭湯 広告、特集ページ"><img src="images/銭湯.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">東京銭湯 広告、特集ページ</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/マッチ.jpg" data-lightbox="group" data-title="ビタミン炭酸マッチ交通広告(cm、ドア横)"><img src="images/マッチ.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">ビタミン炭酸マッチ交通広告</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/お茶漬け.jpg" data-lightbox="group" data-title="お茶づけ海苔交通広告(中吊り、ドア横、ステッカー)"><img src="images/お茶漬け.png"></a>
+                            </div class="works-hover__img">
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">永谷園お茶づけ海苔交通広告</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/乳酸菌ショコラ.jpg" data-lightbox="group" data-title="乳酸菌ショコラ新聞広告"><img src="images/乳酸菌ショコラ.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">乳酸菌ショコラ新聞広告</p>
+                            </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/newoman大.jpg" data-lightbox="group" data-title="NewoManシーズンキャンペーン"><img src="images/newoman.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">NewoManシーズンキャンペーン</p>
+                            </div>
+                        </li>
+        
+                       <li class="works-icon">
+                        <p class="all-txt">All</p>
+                        <div>
+                            <a href="images/LUSH.jpg" data-lightbox="group" data-title="LUSHバスボム雑誌広告"><img src="images/LUSH.png"></a>
+                        </div>
+                        <div class="works-hover__txt">
+                            <p class="works-hover__txt1">USHバスボム雑誌広告</p>
+                        </div>
+                        </li>
+        
+                       <li class="works-icon">
+                        <p class="all-txt">All</p>
+                        <div>
+                            <a href="images/zine.jpg" data-lightbox="group" data-title="ZINE(角度について)"><img src="images/角度.png"></a>
+                        </div>
+                        <div class="works-hover__txt">
+                            <p class="works-hover__txt1">ZINE角度についてのZINE</p>
+                        </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/写真集.jpg" data-lightbox="group" data-title="写真集「藍。」「影裏」"><img src="images/写真集.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">写真集「藍。」「影裏」</p>
+                            </div>
+                        </li>
+        
+                       <li class="works-icon">
+                        <p class="all-txt">All</p>
+                        <div>
+                            <a href="images/リアルイラスト.jpg" data-lightbox="group" data-title="リアルイラスト Nikon Zfc"><img src="images/リアルイラスト.png"></a>
+                        </div>
+                        <div class="works-hover__txt">
+                            <p class="works-hover__txt1">リアルイラスト Nikon Zfc</p>
+                        </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                           <div>
+                               <a href="images/靴下.jpg" data-lightbox="group" data-title="サルビア ざっくり編み靴下パッケージ"><img src="images/靴下.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">サルビア ざっくり編み靴下パッケージ</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div><a href="images/豆菓子.jpg" data-lightbox="group" data-title="まめや豆菓子パッケージ"><img src="images/豆菓子.png"></a></div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">まめや豆菓子パッケージ</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                                <div>
+                                    <a href="images/あの頃.jpg" data-lightbox="group" data-title="あの頃。カード"><img src="images/カード.png"></a>
+                                </div>
+                                <div class="works-hover__txt">
+                                    <p class="works-hover__txt1">あの頃。カード</p>
+                                </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/web.jpg" data-lightbox="group" data-title="ショップサイト"><img src="images/web.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">靴と帽子 ショップサイト</p>
+                            </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">All</p>
+                            <div>
+                                <a href="images/資生堂大.jpg" data-lightbox="group" data-title="資生堂ビューティ・スクエアサイネージコンペ"><img src="images/資生堂.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">資生堂ビューティ・スクエア
+                                <br>
+                                サイネージコンペ</p>
+                            </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <img src="images/coming-soon.png">
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <a href="images/銭湯.jpg" data-lightbox="group" data-title="東京銭湯 広告、特集ページ"><img src="images/銭湯.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">東京銭湯 広告、特集ページ</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <a href="images/マッチ.jpg" data-lightbox="group" data-title="ビタミン炭酸マッチ交通広告(cm、ドア横)"><img src="images/マッチ.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">ビタミン炭酸マッチ交通広告</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <a href="images/お茶漬け.jpg" data-lightbox="group" data-title="お茶づけ海苔交通広告(中吊り、ドア横、ステッカー)"><img src="images/お茶漬け.png"></a>
+                            </div class="works-hover__img">
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">永谷園お茶づけ海苔交通広告</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <a href="images/乳酸菌ショコラ.jpg" data-lightbox="group" data-title="乳酸菌ショコラ新聞広告"><img src="images/乳酸菌ショコラ.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">乳酸菌ショコラ新聞広告</p>
+                            </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <a href="images/newoman大.jpg" data-lightbox="group" data-title="NewoManシーズンキャンペーン"><img src="images/newoman.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">NewoManシーズンキャンペーン</p>
+                            </div>
+                        </li>
+        
+                       <li class="works-icon">
+                        <p class="all-txt">Adovertising</p>
+                        <div>
+                            <a href="images/LUSH.jpg" data-lightbox="group" data-title="LUSHバスボム雑誌広告"><img src="images/LUSH.png"></a>
+                        </div>
+                        <div class="works-hover__txt">
+                            <p class="works-hover__txt1">USHバスボム雑誌広告</p>
+                        </div>
+                        </li>
+                    </ul>
+
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">Editorial</p>
+                            <div>
+                                <a href="images/銭湯.jpg" data-lightbox="group" data-title="東京銭湯 広告、特集ページ"><img src="images/銭湯.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">東京銭湯 広告、特集ページ</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">Editorial</p>
+                            <div>
+                                <a href="images/zine.jpg" data-lightbox="group" data-title="ZINE(角度について)"><img src="images/角度.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">ZINE角度についてのZINE</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <img src="images/coming-soon.png">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">Package</p>
+                           <div>
+                               <a href="images/靴下.jpg" data-lightbox="group" data-title="サルビア ざっくり編み靴下パッケージ"><img src="images/靴下.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">サルビア ざっくり編み靴下パッケージ</p>
+                            </div>
+                        </li>
+        
+                        <li class="works-icon">
+                            <p class="all-txt">Package</p>
+                            <div><a href="images/豆菓子.jpg" data-lightbox="group" data-title="まめや豆菓子パッケージ"><img src="images/豆菓子.png"></a></div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">まめや豆菓子パッケージ</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">Adovertising</p>
+                            <div>
+                                <img src="images/coming-soon.png">
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">Web</p>
+                            <div>
+                                <a href="images/ドリシャス大.jpg" data-lightbox="group" data-title="cafe・ド・リシャスwebサイト"><img src="images/ドリシャス.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">cafe・ド・リシャス webサイト</p>
+                            </div>
+                        </li>
+                        <li class="works-icon">
+                            <p class="all-txt">Web</p>
+                            <div>
+                                <a href="images/web.jpg" data-lightbox="group" data-title="ショップサイト"><img src="images/web.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">靴と帽子 ショップサイト</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="menu-box">
+                        <li class="works-icon">
+                            <p class="all-txt">Other</p>
+                            <div>
+                                <a href="images/写真集.jpg" data-lightbox="group" data-title="写真集「藍。」「影裏」"><img src="images/写真集.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">写真集「藍。」「影裏」</p>
+                            </div>
+                        </li>
+
+                       <li class="works-icon">
+                        <p class="all-txt">Other</p>
+                        <div>
+                            <a href="images/リアルイラスト.jpg" data-lightbox="group" data-title="リアルイラスト Nikon Zfc"><img src="images/リアルイラスト.png"></a>
+                        </div>
+                        <div class="works-hover__txt">
+                            <p class="works-hover__txt1">リアルイラスト Nikon Zfc</p>
+                        </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">Other</p>
+                                <div>
+                                    <a href="images/あの頃.jpg" data-lightbox="group" data-title="あの頃。カード"><img src="images/カード.png"></a>
+                                </div>
+                                <div class="works-hover__txt">
+                                    <p class="works-hover__txt1">あの頃。カード</p>
+                                </div>
+                        </li>
+
+                        <li class="works-icon">
+                            <p class="all-txt">Other</p>
+                            <div>
+                                <a href="images/資生堂大.jpg" data-lightbox="group" data-title="資生堂ビューティ・スクエアサイネージコンペ"><img src="images/資生堂.png"></a>
+                            </div>
+                            <div class="works-hover__txt">
+                                <p class="works-hover__txt1">資生堂ビューティ・スクエア
+                                <br>
+                                サイネージコンペ</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <div id="contact-all">
+                <h1 class="contact">Contact</h1>
+            </div>
+                <div class="contact-matome">
+                    <p class="contact-tel">TEL .   080-2124-4708</p>
+                    <p class="contact-mail">Email .  iksnn30@gmail.com</p>
+                </div>
+
+                <ul class="sns">
+                    <li class="sns-icon">
+                        <p class="sns_insta">instagram</p>
+                        <a href="https://www.instagram.com/iigmksshi/" class="btn-insta" target="_blank">
+                            <img src="images/btn_insta-02.png" alt="インスタグラムアカウント">
+                        </a>
+                    </li>
+                    <li class="sns-icon">
+                        <p class="sns_twitter">twitter</p>
+                        <a href="https://twitter.com/iigmksshi" class="btn-twitter" target="_blank">
+                            <img src="images/btn_twitter_アートボード 1.png" alt="ツイッターアカウント">
+                        </a>
+                    </li>
+                </ul>
+
+            <form action="contact.html" method="post">
+
+                <div class="item">
+                <label class="label" for="name">名前<span class="label-required"></span>：</label>
+                <input id="name" type="text" name="yourname">
+                </div>
+
+                <div class="item">
+                <label class="label" for="email">メールアドレス<span class="label-required"></span>：</label>
+                <input id="email" type="text" name="email" placeholder="sample@email.com">
+                </div>
+
+                <div class="item">
+                <label class="label" for="tel">電話番号：</label>
+                <input id="tel" type="text" name="tel" placeholder="000-0000-0000">
+                </div>
+
+                <div class="contact2">
+                <p class="label">ご希望の連絡先</p>
+                <div class="contact-haiti">
+                    <input id="mail" type="checkbox" name="contact" value="iksnn30@gmail.com"><label for="mail">メール</label>
+                    <input id="call" type="checkbox" name="contact" value="080-2124-4708："><label for="call">電話</label>
+                </div>
+                </div>
+
+                <div class="item">
+                <label class="label" for="textarea-item">ご連絡内容<span class="label-required"></span>：</label>
+                <textarea id="textarea-item"></textarea>
+                </div>
+
+                <div class="btn">
+                <button type="submit">送信</button>
+                </div>
+
+                </form>
+        </div>
+    </main>
+    <footer>
+        Nakamuramirei portfolio
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="8-2-1.js"></script>
+</body>
+</body>
+</html>
